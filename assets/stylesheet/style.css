@@ -122,6 +122,27 @@ p {
   padding: 98px 0;
 }
 
+.btn {
+  padding: 22px 64px;
+  border: none;
+  outline: 0;
+  background-color: #fe86d4;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #7b6cd5;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    width: 100%;
+  }
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -137,6 +158,12 @@ p {
           justify-content: space-between;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .flex {
+    width: 100%;
+  }
 }
 
 .center {
@@ -192,6 +219,14 @@ p {
   color: #fe86d4;
 }
 
+@media screen and (max-width: 768px) {
+  .header-nav ul li {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+  }
+}
+
 .hero-section h1 {
   color: white;
   text-transform: capitalize;
@@ -202,21 +237,6 @@ p {
   font-size: 18px;
   color: whitesmoke;
   margin: 40px 0;
-}
-
-.btn {
-  padding: 22px 64px;
-  border: none;
-  outline: 0;
-  background-color: #fe86d4;
-  font-size: 24px;
-  text-transform: capitalize;
-  color: white;
-  cursor: pointer;
-}
-
-.btn:hover {
-  color: #7b6cd5;
 }
 
 .hero-content {
@@ -254,6 +274,13 @@ p {
   color: #666;
 }
 
+@media screen and (max-width: 768px) {
+  .yoga-class {
+    width: 100%;
+    padding: 30px 0;
+  }
+}
+
 .sec-2 {
   background-color: #f5f5f5;
 }
@@ -262,8 +289,21 @@ p {
   width: 50%;
 }
 
+@media screen and (max-width: 768px) {
+  .sec-2 .col-2-sec .left-sec {
+    width: 100%;
+  }
+}
+
 .sec-2 .col-2-sec .right-sec {
   width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-2 .col-2-sec .right-sec {
+    width: 100%;
+    padding: 30px 0;
+  }
 }
 
 .sec-2 .col-2-sec .yoga-img {
@@ -293,6 +333,13 @@ p {
   width: 22%;
 }
 
+@media screen and (max-width: 768px) {
+  .our-yoga .yoga-class {
+    width: 100%;
+    padding: 30px 0;
+  }
+}
+
 .our-yoga .yoga-instructor {
   width: 200px;
   height: 200px;
@@ -312,6 +359,13 @@ p {
 .sec-4 .form-time .appoinment-form {
   width: 50%;
   border: 1px solid;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-4 .form-time .appoinment-form {
+    width: 100%;
+    font-size: 18px;
+  }
 }
 
 .sec-4 .form-time .form {
@@ -345,6 +399,14 @@ p {
 
 .sec-4 .form-time ::placeholder {
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-4 .form-time .btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 18px;
+  }
 }
 
 .sec-4 .week-shedule {
@@ -402,6 +464,14 @@ p {
 .footer .copy-right {
   text-transform: lowercase;
   color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .footer .copy-right {
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+  }
 }
 
 .footer .fab {

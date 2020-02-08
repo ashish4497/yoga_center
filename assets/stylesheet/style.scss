@@ -35,7 +35,16 @@
     &:hover {
       color: #fe86d4;
     }
+  
   }
+  ul li {
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 30px 0;
+      text-align: center;
+    }
+  }
+
 }
 
 .hero-section {
@@ -50,21 +59,6 @@
     margin: 40px 0;
   }
 }
-
-.btn {
-  padding: 22px 64px;
-  border: none;
-  outline: 0;
-  background-color: #fe86d4;
-  font-size: 24px;
-  text-transform:capitalize;
-  color: white;
-  cursor: pointer;
-  &:hover {
-    color: #7b6cd5;
-  }
-}
-
 
 // section-2 
 .hero-content {
@@ -83,7 +77,7 @@
 
 .yoga-class {
   width: 30%;
- 
+
   .fas {
     font-size: 32px;
     color: #fe86d4;
@@ -96,6 +90,10 @@
     font-size: 18px;
     color: #666;
   }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 30px 0;
+  }
 }
 
 
@@ -105,16 +103,23 @@
   .col-2-sec  {
     .left-sec {
       width: 50%; 
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
     }
     .right-sec {
       width: 50%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+       padding: 30px 0;
+      }
     }
     .yoga-img {
       width:100%;
       height: 100%;
       border-radius: 100%;   
       object-fit:contain;
-    }
+    } 
   }
   ul li {
     padding: 8px 0;
@@ -134,6 +139,10 @@
 .our-yoga {
   .yoga-class {
     width: 22%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 30px 0;
+    }
   }
   .yoga-instructor {
     width:200px;
@@ -150,10 +159,13 @@
     color: #7b6cd5;
   }
   .form-time {
-
-    .appoinment-form {
+  .appoinment-form {
       width: 50%;
       border: 1px solid;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        font-size: 18px;
+      }
     }
   .form {
     padding:50px;
@@ -172,6 +184,13 @@
   
     ::placeholder {
       text-transform: capitalize;
+    }
+    .btn {
+      @media screen and (max-width: 768px) {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 18px;
+      }
     }
    
   }
@@ -227,6 +246,11 @@
   .copy-right {
     text-transform: lowercase;
     color: white;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+       padding: 30px 0;
+       text-align: center ;
+    }
   }
   .fab {
     font-size: 22px;
@@ -235,5 +259,6 @@
     &:hover {
       color: #fe86d4;
     }
-  }
+  } 
+ 
 }
