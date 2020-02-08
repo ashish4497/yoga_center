@@ -1,0 +1,416 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, ::after, *, ::before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: transparent;
+}
+
+img {
+  font-size: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Assistant', sans-serif;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 16px;
+}
+
+.padding {
+  padding: 98px 0;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.center {
+  text-align: center;
+}
+
+.col-1-2 {
+  width: 50%;
+  padding: 0 32px;
+  margin: 24px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .col-1-2 {
+    width: 100%;
+  }
+}
+
+.top-header {
+  background-image: url("/assets/media/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.header-nav {
+  padding: 35px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.header-nav a {
+  color: white;
+  font-size: 22px;
+}
+
+.header-nav strong {
+  color: #fe86d4;
+  text-transform: capitalize;
+}
+
+.header-nav .fas {
+  font-size: 22px;
+  color: white;
+  margin-right: 5px;
+}
+
+.header-nav .fab {
+  font-size: 62px;
+  color: white;
+}
+
+.header-nav .fab:hover {
+  color: #fe86d4;
+}
+
+.hero-section h1 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 42px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  color: whitesmoke;
+  margin: 40px 0;
+}
+
+.btn {
+  padding: 22px 64px;
+  border: none;
+  outline: 0;
+  background-color: #fe86d4;
+  font-size: 24px;
+  text-transform: capitalize;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #7b6cd5;
+}
+
+.hero-content {
+  padding: 70px 0;
+}
+
+.section-heading {
+  text-transform: capitalize;
+  font-size: 32px;
+  color: #7b6cd5;
+}
+
+.section-text {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #666;
+}
+
+.yoga-class {
+  width: 30%;
+}
+
+.yoga-class .fas {
+  font-size: 32px;
+  color: #fe86d4;
+}
+
+.yoga-class h4 {
+  font-size: 32px;
+}
+
+.yoga-class p {
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
+.sec-2 {
+  background-color: #f5f5f5;
+}
+
+.sec-2 .col-2-sec .left-sec {
+  width: 50%;
+}
+
+.sec-2 .col-2-sec .right-sec {
+  width: 50%;
+}
+
+.sec-2 .col-2-sec .yoga-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sec-2 ul li {
+  padding: 8px 0;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #666;
+}
+
+.sec-2 .section-heading {
+  font-size: 42px;
+}
+
+.sec-2 .section-text {
+  margin: 12px 0;
+}
+
+.our-yoga .yoga-class {
+  width: 22%;
+}
+
+.our-yoga .yoga-instructor {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.sec-4 {
+  background-color: #f5f5f5;
+}
+
+.sec-4 h3 {
+  color: #7b6cd5;
+}
+
+.sec-4 .form-time .appoinment-form {
+  width: 50%;
+  border: 1px solid;
+}
+
+.sec-4 .form-time .form {
+  padding: 50px;
+}
+
+.sec-4 .form-time input, .sec-4 .form-time textarea {
+  padding: 20px;
+  margin: 22px 0;
+  display: block;
+  outline: 0;
+  background: transparent;
+  border: 1px solid #666;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.sec-4 .form-time ::-webkit-input-placeholder {
+  text-transform: capitalize;
+}
+
+.sec-4 .form-time :-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.sec-4 .form-time ::-ms-input-placeholder {
+  text-transform: capitalize;
+}
+
+.sec-4 .form-time ::placeholder {
+  text-transform: capitalize;
+}
+
+.sec-4 .week-shedule {
+  padding: 50px;
+}
+
+.sec-4 .week-shedule h2 {
+  color: #fe86d4;
+}
+
+.sec-4 .week-shedule p {
+  color: black;
+  font-size: 24px;
+  padding: 15px 0;
+}
+
+.sec-4 .week-shedule .yoga-type {
+  color: #666;
+  font-size: 22px;
+}
+
+.sec-6 {
+  background-color: #f5f5f5;
+}
+
+.sec-6 .contact-info .section-text {
+  color: #666;
+}
+
+.sec-6 .contact-info .btn {
+  background-color: #7b6cd5;
+}
+
+.sec-6 .contact-info .btn:hover {
+  color: #fe86d4;
+}
+
+.sec-6 .contact-info p {
+  color: #666;
+  font-size: 22px;
+}
+
+.sec-6 .contact-info strong {
+  color: black;
+}
+
+.footer {
+  background-color: #7b6cd5;
+}
+
+.footer .footer-list {
+  padding: 30px 0;
+}
+
+.footer .copy-right {
+  text-transform: lowercase;
+  color: white;
+}
+
+.footer .fab {
+  font-size: 22px;
+  color: white;
+  margin-left: 20px;
+}
+
+.footer .fab:hover {
+  color: #fe86d4;
+}
+/*# sourceMappingURL=style.css.map */

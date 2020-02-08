@@ -1,0 +1,239 @@
+@import "reset";
+@import "base";
+@import "grid";
+
+// Header 
+.top-header {
+  background-image: url(  "/assets/media/banner.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center center;
+}
+
+.header-nav {
+    padding: 35px 0;
+    border-bottom: 1px solid #fff;
+   
+ a {
+    color: white;
+    font-size: 22px;
+
+  }
+  strong {
+    color: #fe86d4;
+    text-transform: capitalize;
+  }
+  .fas {
+    font-size: 22px;
+    color: white;
+    margin-right: 5px;
+  
+  }
+  .fab {
+    font-size: 62px;
+    color: white;
+    &:hover {
+      color: #fe86d4;
+    }
+  }
+}
+
+.hero-section {
+  h1 {
+    color: white;
+    text-transform: capitalize;
+    font-size: 42px;
+  }
+  p {
+    font-size: 18px;
+    color: whitesmoke;
+    margin: 40px 0;
+  }
+}
+
+.btn {
+  padding: 22px 64px;
+  border: none;
+  outline: 0;
+  background-color: #fe86d4;
+  font-size: 24px;
+  text-transform:capitalize;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    color: #7b6cd5;
+  }
+}
+
+
+// section-2 
+.hero-content {
+  padding: 70px 0;
+}
+.section-heading {
+  text-transform: capitalize;
+  font-size: 32px;
+  color: #7b6cd5;
+}
+.section-text {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #666;
+}
+
+.yoga-class {
+  width: 30%;
+ 
+  .fas {
+    font-size: 32px;
+    color: #fe86d4;
+  }
+  h4 {
+    font-size: 32px;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+  }
+}
+
+
+// section-3 
+.sec-2 {
+  background-color: #f5f5f5;
+  .col-2-sec  {
+    .left-sec {
+      width: 50%; 
+    }
+    .right-sec {
+      width: 50%;
+    }
+    .yoga-img {
+      width:100%;
+      height: 100%;
+      border-radius: 100%;   
+      object-fit:contain;
+    }
+  }
+  ul li {
+    padding: 8px 0;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #666;
+  }
+  .section-heading {
+    font-size: 42px;
+  }
+  .section-text {
+    margin: 12px 0;
+  }
+}
+
+// section-3 
+.our-yoga {
+  .yoga-class {
+    width: 22%;
+  }
+  .yoga-instructor {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+// section-4 
+.sec-4 {
+  background-color: #f5f5f5;
+  h3 {
+    color: #7b6cd5;
+  }
+  .form-time {
+
+    .appoinment-form {
+      width: 50%;
+      border: 1px solid;
+    }
+  .form {
+    padding:50px;
+  }
+    input, textarea {
+      padding: 20px;
+      margin: 22px 0;
+      display: block;
+      outline: 0;
+      background: transparent;
+      border: 1px solid #666;
+      width: 100%;
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+  
+    ::placeholder {
+      text-transform: capitalize;
+    }
+   
+  }
+  .week-shedule {
+    padding:50px;
+    h2 {
+      color: #fe86d4;
+    }
+    p {
+      color: black;
+      font-size: 24px;
+      padding: 15px 0;
+    }
+    .yoga-type {
+      color: #666;
+      font-size: 22px;
+    }
+  }
+}
+
+// section-5 
+
+// section-6 
+.sec-6 {
+  background-color: #f5f5f5;
+  .contact-info {
+    .section-text {
+      color: #666;
+    }
+    .btn {
+      background-color: #7b6cd5;
+      &:hover {
+        color: #fe86d4;
+      }
+    }
+    p {
+     color: #666;
+     font-size: 22px;
+    }
+    strong {
+      color: black;
+    }
+   }
+}
+
+
+// footer 
+.footer {
+  background-color:#7b6cd5;
+  .footer-list {
+    padding: 30px 0;
+  }
+  .copy-right {
+    text-transform: lowercase;
+    color: white;
+  }
+  .fab {
+    font-size: 22px;
+    color: white;
+    margin-left: 20px;
+    &:hover {
+      color: #fe86d4;
+    }
+  }
+}
